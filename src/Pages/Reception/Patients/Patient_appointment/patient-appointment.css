@@ -1,0 +1,29 @@
+
+
+@media (min-width: 768px) and (max-width: 1700px) {
+  .patient-appoint-rec .under-nav-header{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .patient-appoint-rec  .activeSearch{
+    width: 300px !important;
+  }
+  .patient-appoint-rec .input-search{
+    width: 200px !important;
+  }
+  .patient-appoint-rec .input-search input{
+    width: 200px;
+  }
+}
+@media (min-width: 1701px) and (max-width: 2100px) {
+
+  .patient-appoint-rec  .activeSearch{
+    width: 350px !important;
+  }
+  .patient-appoint-rec .input-search{
+    width: 160px !important;
+  }
+  .patient-appoint-rec .input-search input{
+    width: 170px !important;
+  }
+}

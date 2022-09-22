@@ -1,0 +1,11 @@
+.search .plus{
+  display: flex;
+}
+.search-container{
+  margin-right: 10px;
+}
+@media (min-width:768px) and (max-width: 1399px){
+  .patient-res .activeSearch{    
+    width: 300px !important;
+    }
+}

@@ -1,0 +1,200 @@
+.table-allAppoint{
+  width: 85% !important;
+  margin: auto;
+  /* font-size: 27px; */
+  margin-bottom: 70px;
+}
+
+.table-allAppoint thead{
+  height: 102px;
+  color: white;
+  text-align: center;
+}
+
+.table-allAppoint thead th{
+  background-color: var(--on-focus);
+  width: calc((100% - 3) / 4 );
+  border: 1px solid white ;
+  border-bottom: transparent !important;
+}
+
+.table-allAppoint tbody,
+.table-allAppoint td,
+.table-allAppoint tfoot,
+.table-allAppoint tbody tr {
+  width: calc(100% / 4);
+  text-align: center;
+  color: #707070;
+  height: 120px;
+  border: 1px solid #707070;
+}
+
+
+tbody .cell-1{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.cell-1 .photo-td{
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .b-all-today{
+    flex-direction: column !important;
+    align-items: flex-end !important;
+  }
+
+  .search-container.activeSearch {
+    width: 300px;
+  }
+
+  .btn-one-appoint{
+    font-size: 16px !important;
+  }
+
+  .btn-two-appoint{
+    font-size: 16px !important;
+  }
+
+  .table-allAppoint {
+    font-size: 16px;
+    width: 95% !important;
+    margin-right: 25px !important;
+  }
+  .cell-1 .photo-td{
+    display: none;
+    margin-right: 10px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1399px){
+  .table-allAppoint{
+    font-size: 19px !important;
+  }
+}
+@media (min-width: 1400px){
+  .table-allAppoint{
+    font-size: 27px !important;
+  }
+}
+
+.square-appointment{
+    width: 100%;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.square-1{
+  width: 20px;
+  height: 20px;
+  background-color: var(--on-focus);
+}
+.square-2{
+  width: 20px;
+  height: 20px;
+  background-color: #01379A;
+}
+
+.canceled{
+  width: 75%;
+  color: white;
+  padding: 10px;
+  background-color: #B50000;
+}
+
+.Pending{
+  width: 75%;
+  color: white;
+  padding: 10px;
+  background-color: #EAD900;
+}
+.Done{
+  width: 75%;
+  color: white;
+  padding: 10px;
+  background-color: green;
+}
+
+.react-calendar{
+  width: 100%;
+  padding: 5%;
+}
+
+.react-calendar__navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center!important;
+  margin-bottom: 200px;
+}
+
+
+.link_open_session{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div_open_session{
+  text-decoration: none !important;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+.body_span{
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.body_content{
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px
+}
+
+.div-waiting{
+  margin-top: 50px;
+  width: 195%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-open-session{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.div-open-session{
+  outline: 3px solid blue;
+  border-radius: 20px;
+  width: 90%;
+}
+
+.plus_appoint{
+  border: 1px solid;
+  border-radius: 100px;
+  padding: 0px 9px 3px 9px;
+}
+
+.delete_appoint{
+  border: 1px solid red;
+  border-radius: 100px;
+  padding: 10px;
+  margin-left: 5px;
+}
+  
+.square-appointment{
+  width: 70% !important;
+}

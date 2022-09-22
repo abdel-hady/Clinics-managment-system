@@ -1,0 +1,10 @@
+.add-appointment form {
+  max-width: 100% !important;
+  height: fit-content;
+  background-color: #EAFAFF;
+}
+@media screen and (max-width: 767px){
+  .add-appointment .work-info-body{
+    padding: 10px !important;
+  }
+}

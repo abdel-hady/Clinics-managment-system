@@ -1,0 +1,91 @@
+.search-container.activeSearch {
+  width: 300px;
+}
+
+.search-container .input-search{
+  width: 200px ;
+}
+
+.link-patient-appointments{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0px;
+  margin-bottom: 5px !important;
+}
+
+.btn-two-paient-appoint:hover,
+.btn-one-paient-appoint:hover{
+  border-radius: 25px;
+  color: white;
+  background-color:var(--on-focus);
+}
+.btn-two-paient-appoint{
+  font-size: 18px !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 27px;
+  padding: 10px;
+  width: fit-content !important;
+  background-color: white;
+  color: #01379A;
+}
+
+.btn-two-paient-appoint.activeAppoint {
+  border-radius: 25px;
+  color: white;
+  background-color: var(--on-focus);
+}
+
+@media screen and (max-width: 767px) {
+  .link-patient-appointments {
+    flex-direction: column;
+  }
+
+  .link-patient-appointments li{
+    margin-bottom: 5px ;
+  }
+}
+@media (min-width: 768px) and (max-width: 1700px){
+  .under-nav-header{
+    flex-direction: column;
+  }
+  .search-container .input-search {
+    width: 300px !important;
+}
+.search-container.activeSearch {
+  width: 400px !important;
+}
+}
+@media (min-width: 1200px) and (max-width: 1700px) {
+  .btn-two-paient-appoint{
+    font-size: 27px !important;
+  }
+  .search-container .input-search {
+    width: 300px !important;
+}
+.search-container.activeSearch {
+  width: 400px !important;
+}
+
+}
+@media (min-width: 1400px) and (max-width: 1700px){
+  .search-container .input-search {
+    width: 300px;
+  }
+}
+@media (min-width: 1700px) {
+  .btn-two-paient-appoint{
+    font-size: 27px !important;
+  }
+  .search-container .input-search {
+    width: 140px !important;
+}
+.search-container.activeSearch {
+  width: 300px !important;
+}
+}

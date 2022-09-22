@@ -1,0 +1,320 @@
+.update-profile-div{
+  margin-bottom: 77px !important;
+}
+
+.my-profile{    
+  width: 100%;
+      background: #EAFAFF;
+      padding: 19px 66px;
+  }
+  
+  .div-photo-my-profile{
+  width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .main-photo-profile{
+      width: 322px;
+      background: white;
+      height: 322px;
+      border-radius: 50%;
+  }
+
+.body-my-profile .general-info{
+  margin-top: 49px;
+}
+.body-my-profile .general-info-body{
+  background-color: white;
+}
+
+.body-my-profile .body-row-div-span {
+  color: #a9a9a9 ;
+}
+.body-my-profile .body-row-div-div {
+  color: #a9a9a9 !important;
+}
+.body-my-profile .healthy-info-body {
+  background: white;
+}
+
+.contact-info{
+  padding: 0px 56px;
+  background-color: white;
+  border: 2px solid #707070;
+}
+
+
+.body-row-div-contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info .mail{
+  color: black;
+  margin-top: 37px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.input-mail-my-profile{
+  font-size: 21px !important;
+  padding: 10px;
+}
+.plus-input-false-contact{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+    margin-bottom: 74px;
+}
+
+  .contact-info .contact-number {
+    color: black;
+    font-size: 21px;
+    margin-top: 33px;
+  }
+
+.div-plus_contact{
+width: 60px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #069AD3;
+border-radius: 15px;
+margin-right: 20px;
+}
+
+.input-number-my-profile{
+width: 45%;
+padding: 10px;
+margin-right: 20px;
+}
+
+.work-info-body{
+  background: white;
+}
+
+.work-info-body{
+width: 100%;
+display: flex;
+flex-direction: column;
+padding: 37px 58px !important;
+border: 2px solid #343434;
+}
+
+.Certificates{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Certificate{
+  height: 309px;
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  background-color:white;
+  border: 2px solid #707070;
+  margin-bottom: 20px;
+  padding: 44px;
+}
+.Certificate h2{
+  color: #01379A;
+}
+.Certificate h4{
+  color: #BBBBBB;
+}
+
+.date-good{
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-Certificate{
+  color: #707070;
+  font-weight: bold;
+}
+.good-Certificate{
+  color: #00B542;
+  font-weight: bold;
+}
+
+.work-hours{
+  padding: 37px 58px;
+  background: white;
+  border: 2px solid;
+  margin-bottom: 200px !important;
+}
+
+.day-1{
+	display: flex;
+    flex-direction: column;
+}
+
+.day-name{
+    font-size: 21px;
+    margin-bottom: 25px;
+    color: #707070;
+}
+
+.day-times{
+display: flex;
+    flex-direction: column;
+}
+
+.day-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 27px;
+    align-items: center;
+}
+
+.day-from{    
+  display: flex;
+      align-items: center;
+      width: 45%;
+  }
+  
+  .day-icon{
+  margin-right: 10px;
+  }
+  
+  .day-hour{
+      border: 2px solid;
+      width: 87%;
+      padding: 15px;
+      border-radius: 6px;
+  }
+
+  .day-to{    
+    display: flex;
+        align-items: center;
+        width: 45%;
+    }
+
+.div-update-profile{
+  width: 100%;
+  margin-bottom: 200px;
+}
+.update-profile{
+  width: 100% !important;
+  padding: 22px;
+  background-color: #D9D9D9;
+  border-radius: 6px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  font-size: 38px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.update-profile:hover{
+  color: white;
+}
+
+@media screen and (max-width: 767px){
+  .my-profile{
+    padding: 19px 5px;
+  }
+  .div-photo-my-profile img{
+    width: 122px;
+    height: 122px;
+  }
+  .under-div-update-profile .general-info-body{
+    padding: 10px !important;
+  }
+  .under-div-update-profile .work-info-body{
+    padding: 10px !important;
+  }
+
+  .under-div-update-profile .work-hours{
+    padding: 10px !important;
+  }
+
+  .under-div-update-profile .contact-info{
+    padding: 10px !important;
+  }
+
+  .Certificate{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .Certificate h2{
+    font-size: 20px;
+  }
+
+  .Certificate h4{
+    font-size: 16px;
+  }
+
+  .date-good .date-Certificate{
+    font-size: 18px !important;
+  }
+  .date-good .good-Certificate{
+    font-size: 16px !important;
+  }
+
+  .day-icon img{
+    width: 20px;
+  }
+  .day-hour{
+    padding: 5px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .my-profile{
+    padding: 19px 5px;
+  }
+
+  .div-photo-my-profile img{
+    width: 222px;
+    height: 222px;
+  }
+  .under-div-update-profile .general-info-body{
+    padding: 10px !important;
+  }
+
+  .under-div-update-profile .work-info-body{
+    padding: 10px !important;
+  }
+
+  .under-div-update-profile .work-hours{
+    padding: 10px !important;
+  }
+
+  .under-div-update-profile .contact-info{
+    padding: 10px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .my-profile{
+    padding: 19px 5px;
+  }
+
+  .under-div-update-profile .general-info-body{
+    padding: 10px !important;
+  }
+
+  .under-div-update-profile .work-info-body{
+    padding: 10px !important;
+  }
+
+  .under-div-update-profile .work-hours{
+    padding: 10px !important;
+  }
+
+  .under-div-update-profile .contact-info{
+    padding: 10px !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  
+}

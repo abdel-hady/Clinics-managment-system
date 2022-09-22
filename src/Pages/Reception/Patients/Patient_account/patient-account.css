@@ -1,0 +1,24 @@
+.user-info-patient-account .b-all-new-post{
+  margin-bottom: 33px !important;
+}
+.user-info{
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #EAFAFF;
+  padding-top: 20px;
+}
+
+.user-info .body-row{
+  margin-top: 0px;
+  margin-bottom: 33px;
+}
+.user-info .body-row-div-span{
+  font-size: 21px;
+}
+.user-info .work-info-body{
+  margin-bottom: 33px;
+}
+
+.bodyUserName{
+  margin-bottom: 30px;
+}

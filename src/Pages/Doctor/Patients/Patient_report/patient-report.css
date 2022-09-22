@@ -1,0 +1,200 @@
+.message-print{
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-print .message{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #069AD3;
+    /* padding: 10px; */
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 18px;
+}
+.message-print .print-report{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #069AD3;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+
+.session-number{
+  display: flex;
+  justify-content: space-between;
+  padding: 51px 56px;
+  background: white;
+  border: 2px solid;
+  margin-bottom: 26px;
+}
+.session-type{
+
+  display: flex;
+  align-items: center;
+}
+.label-type-session{
+  margin-right: 33px;
+  font-size: 21px;
+  font-weight: bold;
+  color: black;
+}
+.review-new-session{
+  color: #707070;
+}
+
+.session-title{
+  padding: 32px;
+  border: 2px solid ;
+  border-radius: 6px;
+}
+.details-description{
+  padding: 32px;
+  border: 2px solid ;
+  border-radius: 6px;
+}
+
+.div-number{
+  width: calc(100% / 6);
+  border: 2px solid;
+}
+.Analyses_body .div-2{
+  width: 35%;
+  border: 2px solid;
+}
+.Analyses_body .div-3{
+  width: 55%;
+  border: 2px solid;
+}
+.Invoice_body .div-2,
+.Invoice_body .div-3,
+.Invoice_body .div-4{
+  width: 15%;
+  border: 2px solid;
+}
+.Invoice_body .div-5{
+  width: 47%;
+  border: 2px solid;
+}
+.price-payment{
+  display: flex ;
+  justify-content: space-between ;
+  padding: 10px;  
+}
+.price-payment .price{
+  /* color: red !important; */
+}
+.price-answear{
+  display: flex;
+  /* flex-direction: column; */
+}
+.payment-answear{
+  display: flex;
+  /* flex-direction: column;  */
+}
+.price-answear .price{
+  margin-right: 5px;
+  font-weight: bold;
+}
+.payment-answear .payment{
+  margin-right: 5px;
+  font-weight: bold;
+}
+.img-transparent{
+  display: flex;
+  justify-content: center;
+}
+.img-transparent img{
+  width: 40%;
+}
+
+.final-patient-report{
+  margin-bottom: 200px;
+}
+@media screen and (max-width: 767px) {
+  .header-left-right {
+    flex-direction: column;
+  }
+  
+  .header-left{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .header-right{
+    width: 100%;
+  }
+  .info-new-sission{
+    padding: 0px;
+  }
+  .header-left,
+  .header-right,
+  .sission-description,
+  .session-number{
+    padding: 10px;
+  }
+.b-all-new-post{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  width: 100% !important;
+}
+
+.Invoice_header{
+  font-size: 14px !important;
+}
+
+
+  /* .sission-description{
+    display: flex !important;
+        flex-direction: row !important;
+    }
+    hr{
+      display: none;
+    }
+    .Medical_header{
+        flex-direction: column !important;
+    }
+    .Medical_body{
+      display: flex;
+      flex-direction: column;
+      width: 100% !important;
+      }
+      .div-number{
+      width: 100% !important;
+      } */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-left-right {
+    flex-direction: column;
+  }
+  
+  .header-left{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .header-right{
+    width: 100%;
+  }
+  /* .sission-description{
+    display: flex !important;
+        flex-direction: row !important;
+    }
+    hr{
+      display: none;
+    }
+    .Medical_header{
+        flex-direction: column !important;
+    }
+    .Medical_body{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    }
+    .div-number{
+    width: 100% !important;
+    } */
+}

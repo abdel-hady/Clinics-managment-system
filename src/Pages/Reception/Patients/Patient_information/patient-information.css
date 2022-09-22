@@ -1,0 +1,98 @@
+.patient-info-rec .under-nav-header{    
+  align-items: baseline;
+  }
+
+  .patient-info-rec .under-nav-body{
+    background: #EAFAFF;
+    padding-top: 20px;
+}
+
+.patient-info-rec .under-nav-header{   
+  display: flex;
+     flex-direction: row;
+ }
+.patient-info-rec .general-info-body{
+  background-color: white;
+}
+
+.patient-info-rec .healthy-info-body{
+  background-color: white;
+}
+.patient-info-rec .body-row-div-birth{
+  width: 100%;
+}
+
+.patient-info-rec .date-input{
+  margin-bottom: 33px;
+}
+
+.patient-info-rec .healthy-info-body{
+  margin-bottom: 33px;
+}
+
+.patient-info-rec .links-update-edit{    
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  }
+  .patient-info-rec .update-profile-rec {
+      text-decoration: none;
+      color: white;
+      background: #D9D9D9;
+      padding: 22px;
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 38px;
+      border-radius: 6px;
+  }
+  .patient-info-rec .edit-user-rec {
+      text-decoration: none;
+      color: white;
+      background: #069AD3;
+      padding: 22px;
+      width: 22%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 38px;
+      border-radius: 6px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .patient-info-rec .update-profile-rec {
+      font-size: 25px !important;
+      height: 100px;
+    }
+    .patient-info-rec .edit-user-rec {
+      font-size: 20px !important;
+      height: 100px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1500px) {
+    .patient-info-rec .update-profile-rec {
+      font-size: 30px !important;
+      height: 100px;
+    }
+    .patient-info-rec .edit-user-rec {
+      font-size: 25px !important;
+      height: 100px;
+    }
+  }
+@media (min-width: 768px) and (max-width: 2100px) {
+  
+  .patient-info-rec .patient-info{
+    width: 32% !important;
+  }
+  .patient-info-rec .div-allergy{
+    width: 100% !important;
+  }
+  .patient-info-rec .input-allergy{
+    width: 100% !important;
+  }
+  .patient-info-rec .plus-input-false-contact{
+    margin-bottom: 33px !important;
+  }
+}

@@ -1,0 +1,419 @@
+.title-nav{
+  font-size: 27px !important;
+  color: #01379A;
+}
+
+.info-new-sission{
+  width: 100%;
+  padding: 42px 66px;
+  background-color: #EAFAFF;
+}
+
+.header-left-right{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.header-left{
+  width: 45%;
+  height: 317px;
+  background-color: white;
+  padding: 37px 58px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #343434;
+  
+}
+.header-right{
+  height: 317px;
+  width: 45%;
+  background-color: white;
+  padding: 37px 58px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #343434;
+}
+
+.info-name-data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-name{
+  font-weight: bold;
+}
+
+.info-data{
+  color: #343434;
+}
+
+.Prescription_Details{
+  padding: 12px;
+  border: 2px solid #343434;
+  text-align: center;
+  font-weight: bold;
+  background: white;
+  margin-bottom: 28px;
+}
+
+.sission-description{   
+  padding: 37px 56px;
+  border: 2px solid #343434;
+  margin-bottom: 28px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.sission-description-title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 33px;
+}
+.sission-description-title label{
+
+  color: black;
+}
+.sission-description-title input{
+  padding: 32px;
+}
+
+.Medical_header div{
+  text-align: center
+}
+.Medical_header .div-1{
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.Medical_header .div-2{
+  width: 15%;
+}
+.Medical_header .div-3{
+  width: 15%;
+}
+.Medical_header .div-4{
+  width: 20%;
+}
+.Medical_header .div-5{
+  width: 20%;
+}
+.Medical_header .div-6{
+  width: 23%;
+}
+
+.Medical_header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row  ;
+}
+
+hr{
+  width: 100%;
+  height: 3px !important;
+}
+.Medical_body{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Medical_body div{
+text-align: center;
+height: 40px;
+}
+
+
+.Medical_body .div-1{
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.Medical_body .div-2{
+  width: 15%;
+}
+.Medical_body .div-3{
+  width: 15%;
+}
+.Medical_body .div-4{
+  width: 20%;
+}
+.Medical_body .div-5{
+  width: 20%;
+}
+.Medical_body .div-6{
+  width: 23%;
+}
+.Medical_body div input{
+width: 100% ;
+height: 100%;
+padding: 10px;
+}
+.Medical_body div select{
+width: 100% ;
+height: 100%;
+}
+
+/* .div-plus_Medical{
+  margin-left: 0px;
+} */
+
+.plus-Medical{
+  width: 60px !important;
+  height: 60px;
+  margin: 0px !important;
+  background-color: #069AD3;
+  border-radius: 20px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  margin-left: 23px;
+  width: 60px !important;
+
+}
+
+a .plus-Medical{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.Analyses_header div{
+  text-align: center
+}
+.Analyses_header .div-1{
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.Analyses_header .div-2{
+  width: 35%;
+}
+.Analyses_header .div-3{
+  width: 57%;
+}
+
+
+.Analyses_header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row  ;
+}
+
+hr{
+  width: 100%;
+  height: 3px !important;
+}
+.Analyses_body{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Analyses_body div{
+text-align: center;
+height: 40px;
+}
+
+
+.Analyses_body .div-1{
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.Analyses_body .div-2{
+  width: 35%;
+}
+.Analyses_body .div-3{
+  width: 57%;
+}
+
+.Analyses_body div input{
+width: 100% ;
+height: 100%;
+padding: 10px;
+}
+.Analyses_body div select{
+width: 100% ;
+height: 100%;
+}
+
+
+
+
+
+
+.Invoice_header div{
+  text-align: center
+}
+.Invoice_header .div-1{
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.Invoice_header .div-2{
+  width: 15%;
+}
+.Invoice_header .div-3{
+  width: 15%;
+}
+.Invoice_header .div-4{
+  width: 15%;
+}
+.Invoice_header .div-5{
+  width: 47%;
+}
+
+
+.Invoice_header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row  ;
+}
+
+hr{
+  width: 100%;
+  height: 3px !important;
+}
+.Invoice_body{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Invoice_body div{
+text-align: center;
+height: 40px;
+}
+
+
+.Invoice_body .div-1{
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.Invoice_body .div-2{
+  width: 15%;
+}
+.Invoice_body .div-3{
+  width: 15%;
+}
+.Invoice_body .div-4{
+  width: 15%;
+}
+.Invoice_body .div-5{
+  width: 47%;
+}
+
+.Invoice_body div input{
+width: 100%;
+height: 100%;
+padding: 10px;
+}
+.Invoice_body div select{
+width: 100%;
+height: 100%;
+}
+
+.Create_session{
+  width: 100%;
+  height: 95px;
+  color: white;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9D9D9;
+  margin-bottom: 200px;
+
+}
+
+.Invoic_false{
+  position: absolute;
+  left: -35px;
+  top: 5px;
+}
+
+.new-sission-header{
+  margin-bottom: 77px !important;
+}
+
+.check-drowp{
+  height: 132px;
+  border: 2px solid;
+  margin-bottom: 26px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 56px;
+}
+
+.check-label{
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  align-items: center;
+}
+
+.check-label label{
+  margin-bottom: 0px !important;
+  margin-right: 10px;
+  font-size: 21px;
+  color: black; 
+}
+.check-label input{
+  width: 20px;
+}
+
+.drowp-label label{
+  font-size: 21px;
+  margin-right: 5px;
+  color: #707070 ;
+}
+
+.Create_session{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px){
+  .check-drowp{
+    padding: 10px;
+  }
+  .check-label label{
+    font-size: 12px;
+  }
+  
+  .drowp-label label{
+    font-size: 12px;
+  }
+
+  .Invoic_false {
+
+    left: -10px !important;
+  }
+  .Invoic_false img	{
+  width: 15px;
+  }
+}

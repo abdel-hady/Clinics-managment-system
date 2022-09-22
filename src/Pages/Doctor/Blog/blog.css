@@ -1,0 +1,80 @@
+.under-nav{
+  width: 100%;
+}
+.link-blog{
+  width: fit-content;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 767px) {
+  .link-blog{
+    font-size: 16px !important;
+  }
+  .middel-blog{
+    justify-content: space-around;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .middel-blog{
+    justify-content: space-around !important;
+  }
+}
+.btn-one-blog{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: fit-content !important;
+  margin-right: 15px;
+  padding: 10px;
+  font-size: 27px;
+  background-color: white;
+  color: #01379A;
+
+}
+.btn-one-blog.activeBlog,
+.btn-two-blog.activeBlog,
+.btn-two-blog:hover,
+.btn-one-blog:hover{
+  border-radius: 25px;
+  color: white;
+  background-color:var(--on-focus) !important;
+}
+.btn-two-blog{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 27px;
+  padding: 10px;
+  width: fit-content !important;
+  background-color: white;
+  color: #01379A;
+}
+
+.middel-blog{
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-wrap: wrap;
+  padding: 0px 5% 80px;
+  margin-bottom: 94px;
+}
+
+.daily{
+  width: 100%;
+  background-color: #01379A;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width:1700px) {
+  .blog .activeSearch{
+    width: 250px !important;
+  }
+}

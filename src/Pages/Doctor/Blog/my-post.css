@@ -1,0 +1,19 @@
+.middel-blog{
+  justify-content: space-around;
+}
+.daily{
+  position: relative;
+}
+
+.delete-post{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  margin-right: 0px !important;
+}
+.edit-post{
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  margin-right: 0px !important;
+}

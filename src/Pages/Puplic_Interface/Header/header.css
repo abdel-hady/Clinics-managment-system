@@ -1,0 +1,534 @@
+body {
+  scroll-behavior: smooth;
+
+}
+
+.parentHead{
+  width: 100%;
+  padding: 0px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding-top: 12vh;
+}
+
+
+.tex{
+  width: 45%;
+  height: 80%;
+}
+
+.buttons{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+  
+}
+
+.btn-one{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 47% !important;
+  padding: 10px;
+  font-size: 24px;
+  color: white;
+  background-color: var(--on-focus);
+  border-radius: 25px;
+  border: 1px solid var(--on-focus);
+}
+
+.btn-one:hover{
+  background-color: #01379A;
+  border: 1px solid #01379A;
+}
+
+.btn-two{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 47% !important;
+  background-color: white;
+  color: var(--on-focus);
+  border-radius: 25px;
+  border: 1px solid var(--on-focus);
+}
+
+.btn-two:hover{
+  color: white;
+  background-color:var(--on-focus);
+}
+
+.landingPh {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parentPh{
+  background-color: transparent !important;
+}
+
+.logo-defaul{
+  width: 100% !important;
+  height: 75%;
+}
+
+h1{
+  font-size: 90px !important;
+}
+
+.paraLanding{
+  font-size: 24px !important;
+  width: 75%;
+}
+
+@media screen and (max-width: 767px){
+  .parentHead{
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  .tex{
+      width: 100%;
+      height: 40vh;
+  }
+
+  h1{
+      font-size: 30px !important;
+  }
+
+  .paraLanding{
+      font-size: 16px !important;
+      width: 100%;
+  }
+
+  .buttons {
+      width: 100%;
+      display: flex;
+      /* font-size: 16px !important; */
+      padding: 5px;
+      justify-content: space-between;
+      margin-top: 20px;
+      /* height: 40px; */
+  }
+
+  .btn-one{
+      font-size: 18px !important;
+      padding: 0px !important;
+  }
+
+  .btn-two{
+      font-size: 18px !important;
+      padding: 5px !important;
+  }
+
+  .landingPh{
+      width: 100%;
+      height: 40vh;
+  }
+
+  .parentPh{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: transparent !important;
+  }
+
+  .logo-defaul{
+  width: 90% !important;
+  height: 350px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  h1{
+      font-size: 50px !important;
+  }
+
+  .paraLanding{
+      font-size: 18px !important;
+  }
+  .buttons{
+      width: 100%;
+  }
+  .logo-defaul{
+      height: 300px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  h1{
+      font-size: 60px !important;
+  }
+
+  .paraLanding{
+      font-size: 20px !important;
+  }
+
+  .buttons{
+      width: 100%;
+  }
+
+  .logo-defaul {
+  height: 350px !important;
+  transform: translate(0px, -20%);
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1520px){
+  h1{
+      font-size: 70px !important;
+  }
+
+  .paraLanding{
+      font-size: 22px !important;
+  }
+}
+
+.service {
+  background-color: rgba(0, 70, 97, .76);
+  width: 100%;
+}
+
+.paraService {
+  text-align: center;
+  width: inherit;
+  font-size: 40px !important;
+  color: white;
+  padding-top: 47px;
+}
+
+.service-one{
+  background-color: rgba(0, 70, 97, .64);
+  min-width: 366px;
+  max-width: 466px;
+  height: 644px;
+  margin: 74px 20px;
+  margin: 0px 15px 15px 15px !important;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service-two{
+  background-color: rgba(0, 70, 97, .64);
+  min-width: 366px;
+  max-width: 466px;
+  height: 644px;
+  margin: 74px 20px;
+  margin: 0px 15px 15px 15px !important;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service-three{
+  background-color: rgba(0, 70, 97, .64);
+  min-width: 366px;
+  max-width: 466px;
+  height: 644px;
+  margin: 0px 15px 15px 15px !important;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.serv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 74px 15px;
+  font-size: 18px;
+  color: white;
+}
+
+.parentServ{
+  background-color: transparent !important;
+}
+
+.logoServ{
+  width: 122px !important;
+  height: 136px !important;
+}
+
+.serv p{
+  text-align: center;
+}
+
+@media screen and (max-width: 767px)  {
+  .service-one{
+      min-width: 300px;
+      max-width: 500px;
+      margin: 0px 15px 15px 15px !important;
+  }
+  .service-two{
+      min-width: 300px;
+      max-width: 500px;
+      margin: 0px 15px 15px 15px !important;
+  }
+  .service-three{
+      min-width: 300px;
+      max-width: 500px;
+      margin: 0px 15px 15px 15px !important;
+  }
+}
+
+@media (min-width:768px) and (max-width: 991px)  {
+  .service-one{
+      min-width: 250px;
+      max-width: 300px;
+      margin: 0px 15px 15px 15px !important;
+  }
+  
+  .service-two{
+      min-width: 250px;
+      max-width: 300px;
+      margin: 0px 15px 15px 15px !important;
+  }
+
+  .service-three{
+      min-width: 250px;
+      max-width: 300px;
+      margin: 0px 15px 15px 15px !important;
+  }
+}
+@media (min-width:992px) and (max-width: 1199px)  {
+  .service-one{
+      min-width: 400px;
+      max-width: 440px;
+      margin: 0px 15px 15px 15px !important;
+  }
+
+  .service-two{
+      min-width: 400px;
+      max-width: 440px;
+      margin: 0px 15px 15px 15px !important;
+  }
+
+  .service-three{
+      min-width: 400px;
+      max-width: 440px;
+      margin: 0px 15px 15px 15px !important;
+  }
+}
+
+/* department */
+
+.Department {
+  width: 100%;
+}
+.paraDepartment{
+  margin: 45px 0px 0px 0px !important;
+  text-align: center;
+  width: inherit;
+  font-size: 40px !important;
+  color: #01379A;
+  position: absolute;
+}
+.parentDep{
+  width: 100%;
+}
+
+.child-1{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 31px 0px;
+}
+
+.phDep{
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+
+.parentPhDep{
+  background-color: transparent !important;
+}
+
+.photoDep{
+  width: 100%;
+  height: 100%;
+}
+
+.description{
+  width: 45%;
+}
+
+.description h2 {
+  display: inline-block;
+  font-size: 36px;
+  color: #01379A;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--on-focus);
+  margin-top: 109px;
+  margin-bottom: 32px;
+}
+
+.description p{
+  font-size: 24px;
+  color: #707070;
+  margin-bottom: 40px;
+}
+
+.description .seeAllBtn{
+  font-size: 18px;
+  padding: 10px;
+  width: 47% !important;
+  background-color: white;
+  color: var(--on-focus);
+  border-radius: 25px;
+  border: 1px solid var(--on-focus);
+}
+
+.description .seeAllBtn:hover{
+  color: white;
+  background-color:var(--on-focus);
+}
+
+.parentDep .child:nth-child(even) {
+  background-color: #dff5ff;
+  display: flex;
+  padding: 142px 5%;
+  justify-content: space-between;
+}
+
+.child{
+  width: 100%;
+  padding: 0px 5%;
+}
+
+.parentDep .child:nth-child(odd) {
+  padding: 142px 5%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.AllDoctors{
+  width: 100%;
+}
+
+.paraAllDoctors{
+  margin: 45px 0px 0px 0px !important;
+  text-align: center;
+  width: inherit;
+  font-size: 40px !important;
+  color: #01379A;
+  position: absolute;
+}
+
+.AllDoctors .card{
+  margin-top: 90px;
+}
+
+@media screen and (max-width: 767px)  {
+  .child{
+      display: flex !important;
+      flex-direction: column !important;
+      
+  }
+
+  .phDep{
+      width: 100%;
+      justify-content: center;
+  }
+  .description{
+      width: 100%;
+  }
+}
+
+/* Footer */
+.Footer{
+  background-color: #065A7C;
+  width: 100%;
+}
+
+.parentFoo{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 55px;
+}
+
+.part {
+  min-width: 300px;
+  max-width: 450px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 394px !important;
+  text-align: center;
+}
+
+.part h2{
+  margin-bottom: 60px;
+  color: white;
+  width: fit-content;
+  padding-bottom: 10px !important;
+  border-bottom: 2px solid var(--on-focus);
+}
+
+.part ul {
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.part li {
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 0px !important;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.part a{
+  text-decoration: none;
+  color: white;
+  background-color: transparent !important;
+}
+
+.part .icon{
+  margin-right: 28px;
+}
+
+.Footer p{
+  text-align: center;
+  padding-bottom: 55px;
+  font-size: 24px !important;
+  color: white;
+  margin-bottom: 0px;
+}
+
+p span{
+  color: var(--on-focus);
+}

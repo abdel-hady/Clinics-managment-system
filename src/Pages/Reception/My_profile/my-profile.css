@@ -1,0 +1,17 @@
+.empty{
+  padding: 20px;
+  background-color: white;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  border: 2px solid;
+}
+
+.body-div-email{
+  width: 100%;
+}
+
+.empty-inside{
+  font-weight: bold;
+  text-align: center;
+}

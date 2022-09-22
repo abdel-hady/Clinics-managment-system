@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    width: 100%;
+}
+body{
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
+.main{
+    background: linear-gradient(to right, #002E83,#069AD3);
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+.form-photo{
+    padding-bottom: 170px !important;
+    overflow: hidden;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 576.25px;
+    height: 498.98px;
+    height: 741px;
+}
+.pa-form{
+    border-radius: 6px;
+    padding: 0px !important;
+    background-color: transparent !important;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4));
+}
+
+
+.container{
+    padding-top: 30px !important;
+    position: relative !important;
+}
+form{
+    height: 741px;
+    max-width: 80% !important;
+    background-color: white;
+}
+
+h1{
+    padding-top: 83px !important;
+    font-size: 43px !important;
+    color: #01379A;
+}
+
+.text-reset{
+    margin-bottom: 88px;
+    color: #707070;
+}
+
+label{
+    margin-bottom: 12px !important;
+    color: #01379A;
+    font-weight: bold;
+}
+.perant{
+    height: 400px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.pass-forget{
+    position: relative;
+}
+
+input{
+    height: 72px;
+}
+
+.code{
+    margin-bottom: 0px !important;
+}
+span{
+    display: inline-block;
+}
+
+.text{
+    text-align: center;
+}
+.remember-pass{
+    display: contents;
+    text-decoration: none;
+    color:#0083B5;
+    margin-bottom: 39px;
+}
+
+
+
+.send-code{
+    height: 72px;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    border: none;
+    width: 100%;
+    background-color: #D9D9D9 !important;
+    border-radius: 3px;
+}
+
+.code-send{
+    width: 100%;
+}
+.label-input-span{
+    margin-bottom: 33px;
+}
+@media (max-width: 767px) {
+    .photo{
+        display: none;
+    }
+
+    h1{
+        font-size: 40px !important;
+    }
+
+    .text-reset{
+        font-size: 12px !important;
+    }
+    form{
+        max-width: 100% !important;
+    }
+    
+    .form-photo{
+        /* width: 100%; */
+        max-width: 100%;
+        margin-left: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .pa-form{
+        max-width: 100% !important;
+    }
+
+    .logo{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+}

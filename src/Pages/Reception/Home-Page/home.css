@@ -1,0 +1,267 @@
+.home{
+  background-color: #E3F9FF;
+  width: 100%;
+  margin-top: 128px;
+  padding-top: 49px;
+  padding-bottom: 50px;
+  /* height: 1700px; */
+}
+.date-plus-plus{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 56px;
+}
+
+.date-plus-plus .date{
+  padding: 64px 50px;
+  background-color: white;
+  width: 47%;
+}
+
+.date-plus-plus .date-day{
+  font-size: 47px;
+    color: #01379A;
+}
+
+.date-plus-plus .text-num{
+  display: flex;
+  font-size: 28px;
+  color: #069AD3;
+}
+
+.date-plus-plus .plus-1{
+  width: 23%;
+  background-color: white;
+  border-radius: 25px;
+  border: 3px solid #069AD3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-plus-plus .plus-2{
+  width: 23%;
+  background-color: white;
+  border-radius: 25px;
+  border: 3px solid #069AD3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-plus-plus .plus-2 .text,
+.date-plus-plus .plus-1 .text{
+  font-size: 23px;
+  color: #069AD3;
+}
+
+.text-add-patient{
+  margin-bottom: 70px;
+  color: #01379A !important;
+  font-size: 27px;
+  font-weight: bold;
+}
+.home .drowp-patient-doctor{
+  display: flex;
+  justify-content: space-between;
+}
+
+.home .text-drowp{
+  background: white;
+  padding: 43px 7%;
+  font-size: 27px;
+  margin-bottom: 48px;
+}
+
+.home .text-drowp label{
+  margin-right: 10px;
+}
+.home .text-drowp .drowp-down-patient{
+  width: 40%;
+}
+.home .text-drowp select{
+  width: 70%;
+  height: 51px;
+}
+
+.drowp-patient-doctor button{
+  color: white;
+  width: 20%;
+  background-color: #D2D9DA;
+}
+.drowp-down-patient{
+  height: 51px;
+}
+
+/* .home .btn-two-appoint{
+  background: transparent;
+} */
+.home tbody{
+  background: white !important;
+}
+@media screen and (max-width: 767px) {
+  .date-plus-plus .date-day{
+    font-size: 20px;
+  }
+  
+  .date-plus-plus .text-num{
+    font-size: 18px;
+  }
+  .date-plus-plus .plus-2 .text,
+.date-plus-plus .plus-1 .text{
+  font-size: 14px;
+}
+
+.text-add-patient{
+  margin-bottom: 70px;
+  color: #01379A !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+.home .text-drowp{
+  padding: 43px 5%;
+  font-size: 14px;
+}
+.home .text-drowp .drowp-down-patient {
+  width: 50%;
+}
+.date-plus-plus .date {
+  padding: 10px;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.date-plus-plus {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.date-plus-plus .plus-1 {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.date-plus-plus .plus-2 {
+  width: 50%;
+}
+.home-parent .main-big {
+    left: 100px !important;
+}
+.home-parent .shrink-navDoctor {
+    width: calc(100% - 100px) !important;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .date-plus-plus .date-day{
+    font-size: 24px;
+  }
+  
+  .date-plus-plus .text-num{
+    font-size: 20px;
+  }
+  .date-plus-plus .plus-2 .text,
+.date-plus-plus .plus-1 .text{
+  font-size: 17px;
+}
+
+.text-add-patient{
+  margin-bottom: 70px;
+  color: #01379A !important;
+  font-size: 17px;
+  font-weight: bold;
+}
+.home .text-drowp{
+  padding: 43px 7%;
+  font-size: 15px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .date-plus-plus .date-day{
+    font-size: 30px;
+  }
+  
+  .date-plus-plus .text-num{
+    font-size: 22px;
+  }
+  .date-plus-plus .plus-2 .text,
+.date-plus-plus .plus-1 .text{
+  font-size: 20px;
+}
+
+.text-add-patient{
+  margin-bottom: 70px;
+  color: #01379A !important;
+  font-size: 22px;
+  font-weight: bold;
+}
+.home .text-drowp{
+  padding: 43px 7%;
+  font-size: 22px;
+}
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .date-plus-plus .date-day{
+    font-size: 37px;
+  }
+  
+  .date-plus-plus .text-num{
+    font-size: 25px;
+  }
+  .date-plus-plus .plus-2 .text,
+.date-plus-plus .plus-1 .text{
+  font-size: 21px;
+}
+
+.text-add-patient{
+  margin-bottom: 70px;
+  color: #01379A !important;
+  font-size: 25px;
+  font-weight: bold;
+}
+.home .text-drowp{
+  padding: 43px 7%;
+  font-size: 25px;
+}
+}
+@media screen and (max-width: 1400px) {
+  .home .b-all-today{    
+    display: flex;
+        flex-direction: column;
+    }
+    .home .activeSearch{
+        width: 300px !important;
+    }
+    .home .search-container .input-search input {
+        width: 200px;
+    }
+}
+
+.Doctor-selceted{   
+  display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 5% 10px 5%;
+    background-color: white;
+    margin-bottom: 40px;
+ }
+ 
+ .doctor-child{
+     width: 10%;
+ }
+ 
+ .chicked-home-doctor{
+     width: 90%;
+ }
+
+.doctor-child-parent{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+
+}

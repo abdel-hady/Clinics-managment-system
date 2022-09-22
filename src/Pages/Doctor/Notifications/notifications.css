@@ -1,0 +1,29 @@
+.search-notification{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1199px) {
+  .search-notification{
+    display: flex;
+    flex-direction: column;
+  }
+  .search-notification .input-search{
+    width: 200px !important;
+  }
+  .search-notification .activeSearch{
+    width: 300px !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .search-notification{
+    display: flex;
+    flex-direction: column;
+  }
+  .search-notification .input-search{
+    width: 200px !important;
+  }
+  .search-notification .activeSearch{
+    width: 300px !important;
+  }
+}

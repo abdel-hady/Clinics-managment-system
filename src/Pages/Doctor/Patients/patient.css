@@ -1,0 +1,35 @@
+body{
+  min-height: 1004px;
+}
+.titlePatient{
+  font-size: 27px ;
+  color: #01379A;
+}
+.b-all-patients{
+  margin: 200px auto 46px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+@media screen and (max-width:  767px) {
+  .b-all-patients{
+  flex-direction: column;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1700px)
+{
+  .search-container.activeSearch {
+    width: 400px !important;
+  }
+  .search-container .input-search {
+    width: 300px !important;
+  }
+}
+
+.bubbles{
+  position: absolute;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%,-50%);
+}

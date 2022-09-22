@@ -1,0 +1,157 @@
+.under-nav{
+  width: 100%;
+}
+
+.b-all-today{
+  flex-direction: row-reverse;
+}
+.b-all-blog{
+  margin: 200px auto 46px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  flex-direction: row-reverse;
+}
+.link-Clinic_Deppartment{
+  width: fit-content;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+}
+.search-plus{
+  display: flex;
+}
+.plus{
+  width: 60px !important;
+  height: 60px;
+  margin: 0px;
+  background-color: #069AD3;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 23px;
+}
+.chevron-left{
+  width: 60px !important;
+  height: 60px;
+  margin: 0px;
+  background-color: #069AD3;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 23px !important;
+}
+.search-container.activeSearchBlog {
+  width: 400px !important;
+}
+@media screen and (max-width: 767px) {
+  .chevron-left{
+    margin-right: 5px !important;
+  }
+  .b-all-blog{
+    margin-top: 150px;
+  }
+  .link-Clinic_Deppartment{
+    font-size: 16px !important;
+  }
+  .middel-Clinic_Deppartment{
+    justify-content: space-around;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .middel-Clinic_Deppartment{
+    justify-content: space-around !important;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .b-all-blog{
+    flex-direction: column;
+  }
+
+.search-container .input-search {
+  width: 200px !important;
+}
+.search-container.activeSearchBlog {
+  width: 300px !important;
+}
+}
+@media (min-width: 1700px) {
+.search-container .input-search {
+  width: 200px !important;
+}
+.search-container.activeSearchBlog {
+  width: 300px !important;
+}
+}
+
+
+.btn-one-Clinic_Deppartment{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: fit-content !important;
+  margin-right: 15px;
+  padding: 10px;
+  font-size: 27px;
+  background-color: white;
+  color: #01379A;
+  height: 100%;
+}
+.btn-one-Clinic_Deppartment.activeClinic_Deppartment,
+.btn-two-Clinic_Deppartment.activeClinic_Deppartment,
+.btn-two-Clinic_Deppartment:hover,
+.btn-one-Clinic_Deppartment:hover{
+  border-radius: 25px;
+  color: white;
+  background-color:var(--on-focus) !important;
+}
+.btn-two-Clinic_Deppartment{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 27px;
+  padding: 10px;
+  width: fit-content !important;
+  background-color: white;
+  color: #01379A;
+}
+
+.middel-Clinic_Deppartment{
+  display: flex;
+  justify-content: space-between;
+  align-items: space-around;
+  flex-wrap: wrap;
+  padding: 0px 5% 80px;
+  margin-bottom: 94px;
+}
+
+.middle-card{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+.bottom-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .img-heart{
+ display: inline-block;
+ margin-left: 12px;
+ margin-right: 0px;
+}
+
+.titlePrice-top {
+  margin: 16px 0px 16px 0px;
+}
+.span-1{
+  color: #069AD3 !important;
+}

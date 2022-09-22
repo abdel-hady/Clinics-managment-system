@@ -1,0 +1,147 @@
+.header-patient-info{
+  margin-right: 10px;
+}
+
+.link-patient-info{
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0px;
+  margin-bottom: 5px;
+}
+
+.under-nav-header{
+  width: 100%;
+  padding: 0px 5% 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  
+}
+
+.under-nav-body{
+  color: #EAFAFF;
+  width: 100%;
+  padding: 0px 5% 0px;
+  font-size: 23px;
+}
+
+.general-info{
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid #707070;
+  font-weight: bold;
+  padding: 12px;
+  margin-bottom: 28px;
+}
+.healthy-info-body,
+.general-info-body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 37px 58px !important;
+  border: 2px solid #343434;
+}
+
+.body-row{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+  margin-top: 33px;
+}
+
+.body-row-div{
+  width: 45%;
+}
+
+.body-row-div-span{
+  font-weight: bold;
+  margin-bottom: 25px; 
+  color: black;
+}
+
+.body-row-div-div{
+  padding: 27px 32px;
+  width: 100%;
+  background-color: white;
+  color: #707070;
+  border: 2px solid #707070;
+}
+
+.healthy-info{
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid #707070;
+  font-weight: bold;
+  padding: 12px;
+  margin: 28px 0px;
+}
+.healthy-info-body{
+  margin-bottom: 200px;
+}
+.body-row-div-final{
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .header-patient-info{
+    margin-right: 5px;
+  }
+  .link-patient-info {
+    flex-direction: column;
+  }
+
+  .body-row{
+    margin-top: 0px;
+  }
+
+  .link-patient-info li{
+    margin-bottom: 5px
+  }
+
+  .body-row {
+    flex-direction: column;
+  }
+
+  .body-row-div{
+    width: 100%;
+    margin-bottom: 33px
+  }
+  .body-row-div-div {
+    padding: 20px 10px;
+  }
+  .under-nav-header {
+    width: 100%;
+    padding: 0px 5% 65px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1399px){
+  .under-nav-header {
+    width: 100%;
+    padding: 0px 5% 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+  .link-patient-info .link-appoint{
+    font-size: 17px;
+    }
+}
